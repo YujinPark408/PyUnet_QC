@@ -7,8 +7,9 @@
 
 PYTHON=/home/yujin/projects/Pytorch-UNet/dnnroi/bin/python
 
-time $PYTHON train3_Q.py  \
+time $PYTHON train3_Q.py  \ 
     --start-epoch 0 --nepoch 50 \
     --start-train 0 --ntrain 40 \
     --start-val 40 --nval 10  \
+    -g True \
     
