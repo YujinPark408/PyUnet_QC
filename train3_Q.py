@@ -285,7 +285,7 @@ if __name__ == '__main__':
     args = get_args()
 
     # Set number of threads for Torch (important for CPU performance)
-    torch.set_num_threads(1)
+    torch.set_num_threads(15)
 
     # Image and mask tags for data loading
     # im_tags = ['frame_tight_lf0', 'frame_loose_lf0'] #lt
