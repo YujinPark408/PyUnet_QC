@@ -1,4 +1,4 @@
-# Quantum ML version of Pytorch-UNet For LArTPC Signal Processing
+# QML version of Pytorch-UNet For LArTPC Signal Processing
 
 A Quantum Machine Learning (QML) adaptation of the classic U-Net architecture, designed for denoising and region-of-interest (ROI) finding in Liquid Argon Time Projection Chamber (LArTPC) detectors.
 
